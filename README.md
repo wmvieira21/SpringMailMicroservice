@@ -21,6 +21,8 @@ Implemented a consumer to listen to the messages published in the CloudAMQP (Rab
 ### Database
 ![Capturar](https://github.com/wmvieira21/SpringMailMicroservice/assets/90009567/ae4c91c3-98ed-415a-93ae-c7fafa19d2e2)
 
+RabbitMQ Manager
+![image](https://github.com/wmvieira21/SpringMailMicroservice/assets/90009567/0fb6d038-86b9-4867-a015-157fc9d916d9)
 
 
 
