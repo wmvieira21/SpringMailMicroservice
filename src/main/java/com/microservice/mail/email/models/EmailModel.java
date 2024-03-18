@@ -5,13 +5,14 @@ import jakarta.persistence.*;
 
 import java.io.Serializable;
 import java.time.LocalDateTime;
+import java.util.UUID;
 
 @Entity
 @Table(name = "email")
 public class EmailModel implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long emailID;
+    private UUID emailID;
 
     private String ownerRef;
     private String emailFrom;
@@ -30,11 +31,11 @@ public class EmailModel implements Serializable {
     public EmailModel() {
     }
 
-    public Long getEmailID() {
+    public UUID getEmailID() {
         return emailID;
     }
 
-    public void setEmailID(Long emailID) {
+    public void setEmailID(UUID emailID) {
         this.emailID = emailID;
     }
 

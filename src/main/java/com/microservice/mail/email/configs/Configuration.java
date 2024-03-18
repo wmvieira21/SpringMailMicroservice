@@ -1,6 +1,5 @@
-package com.microservice.mail.email.conf;
+package com.microservice.mail.email.configs;
 
-import jakarta.mail.Session;
 import org.springframework.context.annotation.Bean;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.mail.javamail.JavaMailSenderImpl;
@@ -20,7 +19,7 @@ public class Configuration {
         mailSender.setHost("smtp.googlemail.com");
         mailSender.setPort(587);
         mailSender.setUsername("williamvieira334@gmail.com");
-        mailSender.setPassword("oesoryryuvgfwtej");
+        mailSender.setPassword("igdzoctznrtkurid");
         mailSender.setJavaMailProperties(props);
         return mailSender;
     }
